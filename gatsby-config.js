@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Spotify Music Viewer',
+    author: 'Andrew Rodebaugh',
+  },
+  pathPrefix: "/spotify-music-viewer",
+  plugins: ['gatsby-plugin-postcss', 'gatsby-plugin-extract-image-colors', 'gatsby-plugin-fontawesome-css', 'gatsby-plugin-react-helmet'],
 }
